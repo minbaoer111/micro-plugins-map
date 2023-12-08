@@ -1,0 +1,32 @@
+{
+  "name": "micro-plugins-map",
+  "version": "1.2.1",
+  "description": "微前端地图工具",
+  "main": "dist/index.es.js",
+  "module": "dist/index.cjs.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "serve": "rollup -c -w"
+  },
+  "files": [
+    "dist/*"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minbaoer111/micro-plugins-map.git"
+  },
+  "author": "wanghuimin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minbaoer111/micro-plugins-map/issues"
+  },
+  "homepage": "https://github.com/minbaoer111/micro-plugins-map#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "@rollup/plugin-babel": "^6.0.4",
+    "rollup": "^4.6.1"
+  }
+}
